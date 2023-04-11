@@ -84,7 +84,6 @@ a{
     font-size: 0.9rem;
     letter-spacing: 3px;
     margin-top: 4rem;
-    height: 15vh;
 }
 .Headline_Store h1{
     margin-left: 4rem;
@@ -95,7 +94,7 @@ a{
 /* Container Starts */
 .container_S1{
     position: relative;
-    height: 115vh;
+    height: clamp(866px,115vh,866px);
     width: clamp(300px,100%,1980px);
     display: flex;
     justify-content: space-evenly;
@@ -152,8 +151,8 @@ a{
 }
 
 .Buy{
-    width: 28vw;
-    height: 11vh;
+    width: clamp(300px,28vw,414px);
+    height: clamp(70px,11vh,77px);
     margin-left: 2rem;
     font-size: 1.5rem;
     background-color: #000;
@@ -181,8 +180,8 @@ a{
     font-family: var(--font);
 }
 .Foot1{
-    width: clamp(759px,50vw,759px);
-    height: clamp(250px,100%,301px);
+    width: clamp(100px,50vw,759px);
+    height: clamp(100px,100%,301px);
     /* border: 2px solid red;    */
 }
 .Foot1 h1{

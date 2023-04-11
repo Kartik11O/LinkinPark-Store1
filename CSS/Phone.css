@@ -1,0 +1,33 @@
+html{
+    font-size: 50%;
+}
+#nav-bar{
+    display: none;
+}
+#NavPhone23{
+    display: flex;
+}
+
+.container_S1{
+flex-direction: column;
+}
+
+.Store-box-1 h1 {
+    font-size: 2.8rem;
+}
+.Store-box-1 h2 {
+    font-size: 2.5rem;
+}
+.Store-box-1 p {
+    font-size: 1.7rem;
+}
+
+.Store-box-1 {
+    height: clamp(421px,47vh,421px);
+    width: clamp(300px,100vw,414px);
+}
+.Store-box-2 {
+    background-size: contain;
+    height: clamp(430px,78vh,438px);
+    width: clamp(300px,100vw,414px);
+}
