@@ -1,0 +1,206 @@
+#Store_1{
+    position: relative;
+    width: clamp(300px,100%,100%);
+    height: clamp(400px,150vh,1130px);
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    flex-direction: column;
+    font-family: var(--font);
+    animation: Store 1s both;
+}
+@keyframes Store {
+    0%{
+        opacity: 0;
+    }
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav-bar{
+    position: relative;
+    top: 0;
+    width: clamp(600px,100%,100%);
+    height: clamp(86px,12vh,86px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+    color: #fff;
+    z-index: 99;
+}
+.box_1_nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box_1_nav a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 1rem;
+}
+.box_2_nav{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+}
+.box_2_nav h2{
+    margin-bottom: auto;
+}
+.box_2_nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.box_3_nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box_3_nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+/* Headline_Store */
+.Headline_Store {
+    height: clamp(60px,15vh,113px);
+    width: clamp(300px,100%,1980px);
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    margin-top: 4rem;
+    height: 15vh;
+}
+.Headline_Store h1{
+    margin-left: 4rem;
+    font-weight: 100;
+}
+
+
+/* Container Starts */
+.container_S1{
+    position: relative;
+    height: 115vh;
+    width: clamp(300px,100%,1980px);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* border: 2px solid rgb(56, 27, 150); */
+}
+
+/* AllStore_Boxs */
+.Store-box-1 {
+    width: clamp(300px,40vw,614px);
+    height: clamp(400px,76vh,572px);
+    /* border: 2px solid red; */
+}
+.Store-box-1 h1{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.Store-box-1 h2{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+.Store-box-1 p{
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2rem;
+    margin: 2rem;
+    width: clamp(300px,28vw,430px);
+}
+.Qu{
+    display: block;
+    width: clamp(130px,9vw,138px);
+    height: clamp(60px,8vh,60px);
+    background-color: #000;
+    outline: none;
+    border: 2px solid #fff;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    padding: 10px 17px;
+}
+
+.Store-box-2 {
+    width: clamp(300px,50vw,768px);
+    height: clamp(400px,100vh,753px);
+    background-image: url(https://cdn.shopify.com/s/files/1/2117/2713/products/LIP329A_SPRAYBOXWASHEDBLACKTEE_grande.png?v=1673465561);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+}
+
+.Buy{
+    width: 28vw;
+    height: 11vh;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: 2px solid white;
+    font-family: var(--font);
+    font-weight: 900;
+    transition: 0.9s;
+    cursor: pointer;
+}
+.Buy:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* Footer */
+#First_footer{
+    width: clamp(300px,100%,100%);
+    height: clamp(250px,40vh,301px);
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+.Foot1{
+    width: clamp(759px,50vw,759px);
+    height: clamp(250px,100%,301px);
+    /* border: 2px solid red;    */
+}
+.Foot1 h1{
+    font-weight: 100;
+    margin-left: 2rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #3a3a3a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#email{
+    border: none;
+}
+
+.Foot1 h1:nth-child(1){
+    width: clamp(100px,13vw,199px);
+}
+.Foot1 h1:nth-child(2){
+    width: clamp(100px,10vw,153px);
+}
+.Foot1 h1:nth-child(3){
+    width: clamp(100px,11vw,168px);
+}
+.Foot1 h1:nth-child(4){
+    width: clamp(100px,16vw,245px);
+}
