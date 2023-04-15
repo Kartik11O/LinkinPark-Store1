@@ -29,8 +29,8 @@ a{
 #nav-bar{
     position: relative;
     top: 0;
-    width: clamp(600px,100%,100%);
-    height: clamp(86px,12vh,86px);
+    width: clamp(300px,100%,100%);
+    height: clamp(30px,12vh,86px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +39,7 @@ a{
     z-index: 99;
 }
 .box_1_nav{
-    width: 30%;
+    width: clamp(300px,30%,455px);
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -147,7 +147,7 @@ a{
     background-image: url(https://cdn.shopify.com/s/files/1/2117/2713/products/LIP329A_SPRAYBOXWASHEDBLACKTEE_grande.png?v=1673465561);
     background-size: cover;
     background-repeat: no-repeat;
-    /* border: 2px solid red; */
+    background-position: center;
 }
 
 .Buy{

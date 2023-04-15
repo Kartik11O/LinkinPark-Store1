@@ -1,0 +1,21 @@
+@media all and (max-device-width: 1307px) and (orientation: landscape){
+    
+    html{
+        font-size: 50%;
+    }
+    .container_S1 {
+        flex-direction: row !important;
+    }
+
+    #NavPhone23{
+        display: none !important;
+    }
+
+    #nav-bar{
+        display: flex !important;
+    }
+
+    .box_2_nav h2 {
+        margin-bottom: 0;
+    }
+}
